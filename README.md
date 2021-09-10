@@ -20,6 +20,6 @@ A full [markdown TEMPLATE](TEMPLATE.md) contains many more prompts under this sa
 
 ## Usage
 
-It is hoped that people who have found this useful will add links to their documented TURTLES checklist in the [USAGE][USAGE.md] file. 
+It is hoped that people who have found this useful will add links to their documented TURTLES checklist in the [USAGE](USAGE.md) file. 
 
 ## Detailed Example - Example Project
