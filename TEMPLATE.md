@@ -4,7 +4,7 @@ Feel free to copy/paste everything below the marker into your own markdown file 
 
 ## This project is now archived. Here is the [TURTLES checklist :turtle:](https://github.com/jamesread/TURTLES) 
 
-A "TURTLE" checklist serves as a helpful reminder for those finding the project later, as a reminder for why it was archived. You can read more about [the TURTLES checklist](https://github.com/jamesread/TURTLES) :turtle: 
+A "TURTLES" checklist serves as a helpful reminder for those finding the project later, as a reminder for why it was archived. You can read more about [the TURTLES checklist](https://github.com/jamesread/TURTLES) :turtle: 
 
 **T — Technologists**:  Did enough people contribute to maintaining this project? Developers, Architects, Security, Operations?
 - **Developers:** Alice and Bob were the main developers, and several other people from Ops contributed some patches. 
@@ -23,24 +23,25 @@ A "TURTLE" checklist serves as a helpful reminder for those finding the project 
 - **Roadmap:** News management (issue #8123) and media management (#9533) were two major roadmap items that we never had time for. 
 
 **T — Technology**: Are there any unsustainable technologies behind this project?
-- **Sustainability:** Pidgin seems reasonably well maintained, with packages for all modern distros still, but perhaps has less users now-a-days. It seems g++ compiles with several warnings now.
-- **Changes?:** Limited by the pidgin API
-- **Dependencies frozen?:** Doesn't seem much point - see Pidgin.
-- **Outdated dependencies?:** It seems Pidgin relies on some older GTK versions, but nothing major.
+- **Sustainability:** This project was written in Visual Basic 6, which is old, unmaintained, and doens't work different platforms. The project would need so many updates to get to VB.net that porting isn't realistic
+- **Changes?:** Nowadays, most admin tools like this a web based, not desktop based. 
+- **Dependencies frozen?:** Included current version of major dependencies - vb6.dll in the lib/ folder. 
+- **Outdated dependencies?:** This project uses libFoo which is well maintained still, but libBar looks abandoned now. 
+- **Building & Toolchain**: See HOW_TO_COMPILE.md
 
 **L — Learning**: Is anything being learned by maintaining this project?
-- **Developers:** Nothing too much, as the base code was copied from another plugin (with permission)
-- **Operators:** N/A
-- **Project managers:** N/A
-- **Budget/Finance:** N/A
-- **Business:** N/A
+- **Developers:** Nothing too much, the UI was frequently described as "easy to use". 
+- **Operators:** It was a real pain to release updates, as they needed to be downloaded by each user from a central fileserver.
+- **Project managers:** Often underestimated how long it would take to test a release. 
+- **Budget/Finance:** The project wasn't big enough to need it's own budget.
+- **Business:** Althouh the app was business critical, it wasn't big enough to be seen by the exec leadership of the company. 
 
 **E — Ecosystem**: Are there an alternative to writing this project?
-- **Alternative approach?:** Nope, this project is tied to Pidgin.
-- **Alternative tech/Open Source?**: N/A
-- **Duplication?**: No other plugins exist that do this as far as I know.
+- **Alternative approach?:** Should have been a webapp.
+- **Alternative tech/Open Source?**: Realistically, we should have switched the main website to Wordpress, then we would not have had to write this admin tool in the first place. 
+- **Duplication?**: No other tool could do what this tool did!
 
 **S — Salvage**: Can anything useful be salvaged from this project?
 - **Reuseable code?**: It's a very small project, nothing reusable it seems.
 - **Reusable non-tech?**: N/A
-- **Forkable?**: I borrowed code from the leftify-tabs plugin, if you find something here useful, please go for it :-) 
+- **Forkable?**: Not really, it's very tied into our production website and specifically built as an admin tool for internal use. 
