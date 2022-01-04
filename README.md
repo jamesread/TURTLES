@@ -25,3 +25,9 @@ A full [markdown TEMPLATE](TEMPLATE.md) contains many more prompts under this sa
 ## Usage
 
 It is hoped that people who have found this useful will add links to their documented TURTLES checklist in the [USAGE](USAGE.md) file. 
+
+## Dependencies
+
+The TURTLES checklist is just documentation - it is nothing more than a text file. However, if you want some sort of reference that you are using (or have used) the TURTLES checklist, for example as a reminder to developers, or to activate the GitHub "used by" feature, then you can depend against one of the dummy dependencies - go.mod for Golang, pom.xml for Java/Maven, etc. 
+
+This is of course entirely optional.
