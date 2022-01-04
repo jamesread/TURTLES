@@ -1,3 +1,3 @@
-module github.com/jamesread/turtles
+module github.com/jamesread/TURTLES
 
 go 1.16
